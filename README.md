@@ -4,6 +4,8 @@ An offline calendar conflict detector with three explicit rules: time overlap, i
 
 **Status:** v0.1.1 · Confidence: high (interval arithmetic is exact) · as of 2026-10-11
 
+<p align="center"><img src="docs/demo.gif" alt="demo" width="720"></p>
+
 ## Problem
 
 Calendar UIs flag overlaps and stop there. They miss the slower failure modes: 5-minute turns between meetings that make deep work impossible, and 6-hour unbroken meeting chains that nobody agreed to. Planning audits need typed, configurable conflict rules over plain event data — not another SaaS integration.
